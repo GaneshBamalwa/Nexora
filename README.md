@@ -1,8 +1,14 @@
 <div align="center">
 
-# 🌌 NEXORA
-### The Future of AI-Driven Customer Support
-**Secure. Immersive. Intelligent.**
+
+<img src="assets/nexora.png" alt="Nexora Logo" width="140"/>
+
+
+
+### Intelligent Customer Support, Reimagined
+
+</div>
+
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -19,11 +25,11 @@
 
 ---
 
-## ✨ Project Overview
+##  Project Overview
 
 **Nexora** is a production-grade, AI-powered customer support ecosystem designed to bridge the gap between complex enterprise workflows and seamless user experiences. By combining a **high-fidelity, immersive React frontend** with a **hardened FastAPI backend**, Nexora delivers a support platform that isn't just functional—it's futuristic.
 
-### 🎯 Why Nexora?
+###  Why Nexora?
 - **AI-First Workflow**: Automated triage and intelligent response suggestions.
 - **Immersive UX**: 3D particle systems and motion-rich interfaces that WOW users.
 - **Battle-Hardened Security**: Multi-layered defense including JWT, Bcrypt, and IDOR protection.
@@ -31,32 +37,32 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🧠 AI Capabilities
+###  AI Capabilities
 - **Nexora AI Chatbot**: Interactive, context-aware support bot powered by OpenAI.
 - **Smart Response Suggestions**: Real-time AI drafting for support agents to accelerate resolution.
 - **Automated Triage**: Background tasks that intelligently route and assign tickets based on priority and load.
 
-### 🛡️ Security (Zero-Trust Approach)
+###  Security (Zero-Trust Approach)
 - **Hardened Auth**: JWT Bearer tokens with 8-hour expiry and Bcrypt password hashing.
 - **IDOR Protection**: Strict ownership validation on every sensitive API endpoint.
 - **Threat Mitigation**: Built-in rate limiting (`slowapi`) and 100% parameterized SQL queries.
 - **Security Headers**: Custom middleware for `X-Frame-Options`, `CSP`, and `HSTS`.
 
-### 📊 Admin & Analytics
+### Admin & Analytics
 - **Live Command Center**: Real-time dashboard for administrators to monitor global performance.
 - **SLA Tracking**: Automated due-date calculation (24h/48h/72h) based on ticket priority.
 - **Performance Metrics**: Detailed agent performance reports and customer satisfaction (CSAT) tracking.
 
-### 💎 UX & Design
+###  UX & Design
 - **3D Immersive Backgrounds**: Interactive Three.js particle systems for an premium feel.
 - **Micro-Interactions**: Fluid animations powered by Framer Motion.
 - **Glassmorphic UI**: Modern, sleek design language built with Tailwind CSS 4.0.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -71,7 +77,7 @@ graph TD
 
 ---
 
-## 💾 Database Schema
+## Database Schema
 
 ```mermaid
 erDiagram
@@ -84,13 +90,13 @@ erDiagram
 
 ---
 
-## 🏗️ Folder Structure
+##  Folder Structure
 
 > **Note:** Nexora uses an ORM-less database approach to maximize performance and ensure complete control over SQL execution.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -105,7 +111,7 @@ erDiagram
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -129,7 +135,7 @@ npm run dev
 
 ---
 
-## 👨‍💻 Contributors
+##  Contributors
 - **Ganesh Bamalwa** - [GitHub](https://github.com/GaneshBamalwa) | [LinkedIn](https://linkedin.com/in/ganeshbamalwa)
 - **Rudransh Kadiveti** - [GitHub](https://github.com/RudranshKadiveti)
 
